@@ -1,0 +1,11 @@
+[package]
+name = "kanji-pad"
+version = "0.1.0"
+edition = "2024"
+description = "Japanese handwriting pad: draw kanji strokes, get live candidates, copy to clipboard"
+
+[dependencies]
+eframe = "0.37"
+egui = "0.37"
+arboard = "3"
+serde_json = "1"
